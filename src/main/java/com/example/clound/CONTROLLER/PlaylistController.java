@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/playlists")
+@CrossOrigin(origins ="*")
 public class PlaylistController {
     @Autowired
     private PlaylistRepository playlistRepository;
