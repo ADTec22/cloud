@@ -17,7 +17,7 @@ public class Playlist {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<Song> songs = new HashSet<>();
 
-    // Getters y Setters
+    // funca
     public void addSong(Song song) {
         this.songs.add(song);
     }
